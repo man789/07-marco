@@ -1,0 +1,61 @@
+.main-flako{
+    background-color: #fff;
+    width: 100%;
+    .flako-content{
+        padding: 0 10%;
+        p:first-child{
+            color: #787878;
+            font-size: 14px;
+            letter-spacing: 4px;
+        }
+        p{
+            color: #333;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 300;
+            text-align: left;
+            letter-spacing: 0px;
+        }
+    }
+    .flako-typo-important{
+        p:nth-of-type(1){
+            color: #787878;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+        p:nth-of-type(2){
+            width: 60%;
+            margin: 0 auto;
+            color: #333;
+            font-size: 45px;
+            line-height: 72px;
+            font-style: italic;
+            text-align: center;
+        }
+    }
+    .flako-img-duo{
+        display: flex;
+        div{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .flako-img-solo{
+        margin: 5% 0;
+        display: flex;
+        div{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.main-flako.wrap{
+    padding: 5% 25%;
+    position: relative;
+    z-index: 100;
+}

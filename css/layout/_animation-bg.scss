@@ -1,0 +1,20 @@
+.bg {
+    animation: .9s ease-in-out slide;
+    background: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    left:0;
+    opacity:1;
+    position:fixed;
+    z-index:9999;
+    transform:translateX(100%);
+}
+
+@keyframes slide {
+    0% {
+        transform:translateX(0%);
+    }
+    100% {
+        transform:translateX(100%);
+    }
+}
